@@ -1,0 +1,88 @@
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-left: 350px;
+
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(156, 37, 37, 0.1);
+  }
+  
+  .user-choice {
+    margin-bottom: 10px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 4px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 4px;
+  }
+  
+  .board .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #eee;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .board .cell:hover {
+    background-color: #ddd;
+  }
+  
+  .game-over {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    padding-left: 200px;
+  }
+  
+  .result-table {
+    border-collapse: collapse;
+    width: 200px;
+  }
+  
+  .result-table th,
+  .result-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
+  
+  .result-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .result-table td:first-child {
+    font-weight: bold;
+  }
+  
+  .result-table td:last-child {
+    font-size: 20px;
+    color: #ba2f1d;
+  }
+  

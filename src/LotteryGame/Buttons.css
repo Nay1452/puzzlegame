@@ -1,0 +1,26 @@
+.hay h1 {
+    background-color: rgb(0, 0, 0);
+    padding-top: 150px;
+    color: rgb(255, 255, 255);
+    padding-left: 650px;
+    font-size: 41px;
+    opacity: 0; 
+    animation: fadeIn 2s ease forwards; 
+  }
+  
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; 
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .hay h2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 254, 255);
+    padding-left: 145px;
+  }
+  
